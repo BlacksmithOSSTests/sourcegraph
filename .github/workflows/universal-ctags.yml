@@ -17,7 +17,7 @@ permissions:
 jobs:
   x86_64-linux:
     name: Build ctags x86_64-linux
-    runs-on: ubuntu-latest
+    runs-on: blacksmith
     steps:
       - uses: actions/checkout@v3
       - uses: DeterminateSystems/nix-installer-action@07b8bcba1b22d847db7ee507180c33e115499665 # SECURITY: pin third-party action hashes # SECURITY: pin third-party action hashes
